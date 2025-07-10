@@ -1,0 +1,34 @@
+.log-viewer {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+.log-viewer table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.log-viewer th,
+.log-viewer td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.log-viewer th {
+  background-color: #f5f5f5;
+  font-weight: 600;
+  color: #333;
+}
+
+.log-viewer tr:last-child td {
+  border-bottom: none;
+}
+
+.log-viewer tr:hover {
+  background-color: #f9f9f9;
+}

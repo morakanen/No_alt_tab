@@ -1,0 +1,74 @@
+{
+  "commands": [
+    {
+      "phrases": ["play spotify", "start spotify music", "resume spotify", "spotify play", "play music on spotify", "play my spotify"],
+      "handler": "spotify_play",
+      "description": "Starts or resumes music playback specifically in Spotify"
+    },
+    {
+      "phrases": ["pause spotify", "stop spotify music", "spotify pause", "stop music on spotify", "pause my spotify"],
+      "handler": "spotify_pause",
+      "description": "Pauses music playback specifically in Spotify"
+    },
+    {
+      "phrases": ["open chrome", "launch firefox", "start spotify", "open discord", "launch calculator", "open notepad"],
+      "handler": "open_application",
+      "description": "Opens a specific application by name"
+    },
+    {
+      "phrases": ["play music", "start music", "resume music", "play the music", "start the music", "play my playlist"],
+      "handler": "play_music",
+      "description": "Starts or resumes music playback"
+    },
+    {
+      "phrases": ["close chrome", "close firefox", "close spotify", "close discord", "close the window"],
+      "handler": "close_specific_window",
+      "description": "Closes a specific window by name"
+    },
+    {
+      "phrases": ["stop music", "pause music", "mute music", "stop the music", "pause the music"],
+      "handler": "stop_music",
+      "description": "Stops or mutes music playing in the background"
+    },
+    {
+      "phrases": ["mute game", "mute sound", "silence game"],
+      "handler": "mute_game",
+      "description": "Mutes game audio"
+    },
+    {
+      "phrases": ["take screenshot", "capture screen", "screenshot"],
+      "handler": "take_screenshot",
+      "description": "Takes a screenshot of the current game"
+    },
+    {
+      "phrases": ["open inventory", "show inventory", "inventory"],
+      "handler": "open_inventory",
+      "description": "Opens the inventory in game"
+    },
+    {
+      "phrases": ["close active window", "exit current window", "alt f4"],
+      "handler": "close_window",
+      "description": "Closes the active window"
+    },
+    {
+      "phrases": ["volume up", "increase volume", "louder", "turn up volume", "turn up the volume", "increase the volume"],
+      "handler": "volume_up",
+      "description": "Increases system volume"
+    },
+    {
+      "phrases": ["volume down", "decrease volume", "quieter"],
+      "handler": "volume_down",
+      "description": "Decreases system volume"
+    },
+    {
+      "phrases": ["next track", "skip song", "next song"],
+      "handler": "next_track",
+      "description": "Skips to the next music track"
+    },
+    {
+      "phrases": ["previous track", "last song", "previous song"],
+      "handler": "previous_track",
+      "description": "Goes back to the previous music track"
+    }
+  ]
+}
